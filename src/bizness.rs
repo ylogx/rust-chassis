@@ -20,3 +20,14 @@ fn perform_something() {
     let steps = upper + lower / 2. - noiseness;
     debug!("Move ({lower}, {upper}) in {steps} steps)");
 }
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_performance() {
+        performance();
+    }
+}
