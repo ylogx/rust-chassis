@@ -27,3 +27,6 @@ lint:
 
 test:
 	cargo test
+
+update:
+	cargo update
